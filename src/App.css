@@ -1,0 +1,11 @@
+#items {
+  width: 35rem;
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
+#item-form {
+  width: 30rem;
+  max-width: 90%;
+  margin: 6rem auto 3rem;
+}

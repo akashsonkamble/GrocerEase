@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 0 2rem;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+.btn-container {
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.edit-btn {
+  color: #6be675;
+}
+.edit-btn:hover,
+.edit-btn:active {
+  color: #25bb32;
+}
+
+.delete-btn {
+  color: #e66b6b;
+}
+.delete-btn:hover,
+.delete-btn:active {
+  color: #bb2525;
+}
+
+@media (max-width: 768px) {
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    background-color: white;
+  }
+}

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.1rem;
+  color: #063251;
+  background: #f1f5f8;
+}
+
+body {
+  margin: 0;
+}
